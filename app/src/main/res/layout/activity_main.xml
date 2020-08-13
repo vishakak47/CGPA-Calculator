@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etsems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Enter no of Sems"
+            android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/etsem1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Enter 1st sem sgpa"
+            android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etsem2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Enter 2nd sem sgpa"
+            android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etsem3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Enter 3rd sem sgpa"
+            android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etsem4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Enter 4th sem sgpa"
+            android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etsem5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Enter 5th sem sgpa"
+            android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etsem6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Enter 6th sem sgpa"
+            android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etsem7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Enter 7th sem sgpa"
+            android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etsem8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Enter 8th sem sgpa"
+            android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btncgpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/custom"
+        android:text="Generate " />
+
+    <TextView
+        android:id="@+id/tvcgpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
+        android:padding="2dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvcg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
+        android:padding="2dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
